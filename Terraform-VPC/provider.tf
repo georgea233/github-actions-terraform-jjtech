@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     # Replace this with your bucket name!
     bucket = "fluentindevops-tf-statefile"
-    key    = "fluentindevops-tf-statefile/eks/statefile"
+    key    = "fluentindevops-tf-statefile/tf-github-actions/statefile"
     region = "us-east-2"
 
     # Replace this with your DynamoDB table name!
